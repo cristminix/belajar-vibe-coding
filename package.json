@@ -1,0 +1,21 @@
+{
+  "name": "belajar-vibe-coding",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "elysia": "^1.2.0",
+    "drizzle-orm": "^0.38.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.0",
+    "@types/pg": "^8.11.0",
+    "@types/bun": "latest"
+  }
+}
